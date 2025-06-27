@@ -23,6 +23,10 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  platforms:
+    web:
+      plugin:
+        implements: super_drag_and_drop
 
   # To add assets to your package, add an assets section, like this:
   # assets:
